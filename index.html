@@ -276,20 +276,21 @@
 
                         <img class="w-full rounded-xl" src="./assets/image/contuct banner.webp" alt="">
 
-                        <form class=" flex  gap-4 lg:gap-2  flex-col xl:gap-4 justify-between h-full  " name="contact"
-                            netlify>
+                        <form class="flex gap-4 lg:gap-2 flex-col xl:gap-4 justify-between h-full" name="contact"
+                            method="POST" data-netlify="true">
                             <input
-                                class=" flex-grow input focus:outline-none  border-white rounded-xl bg-transparent   text-lg  "
-                                type="text" placeholder="Name" name="name">
+                                class="flex-grow input focus:outline-none border-white rounded-xl bg-transparent text-lg"
+                                type="text" placeholder="Name" name="name" required>
                             <input
-                                class=" flex-grow input focus:outline-none  border-white rounded-xl bg-transparent  text-lg  "
-                                type="email" placeholder="Email" name="email">
-                            <textarea rows="" name="" id=""
-                                class=" flex-grow textarea focus:outline-none  border-white rounded-xl bg-transparent  text-lg  resize-none h-max "
-                                placeholder="Massage..." name="Massage"></textarea>
+                                class="flex-grow input focus:outline-none border-white rounded-xl bg-transparent text-lg"
+                                type="email" placeholder="Email" name="email" required>
+                            <textarea
+                                class="flex-grow textarea focus:outline-none border-white rounded-xl bg-transparent text-lg resize-none h-max"
+                                placeholder="Message..." name="message" required></textarea>
                             <button
-                                class="btn flex-grow text-lg btn focus:outline-none  bg-primary-color rounded-xl text-white ">Submit</button>
+                                class="btn flex-grow text-lg btn focus:outline-none bg-primary-color rounded-xl text-white">Submit</button>
                         </form>
+
                     </div>
                 </div>
             </div>
