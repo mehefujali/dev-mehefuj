@@ -87,18 +87,20 @@
         <section class=" container  mx-auto flex flex-col-reverse lg:flex-row gap-8 justify-between items-center">
             <!-- text part  -->
             <div class=" w-11/12 lg:w-5/12 flex flex-col items-start ">
-                <div class="typewriter">
+                <div class="typewriter hero-texts">
                     <h1 class=" text-xl md:text-3xl text-white"> Hi, I’m Mehefuj Ali </h1>
                 </div>
-                <h1 class=" text-3xl  md:text-4xl xl:text-5xl font-bold my-6 md:my-7 text-primary-color">Forntend
+                <h1 class=" text-3xl  md:text-4xl xl:text-5xl font-bold my-6 md:my-7 text-primary-color hero-texts">
+                    Forntend
                     Developer</h1>
-                <p class=" text-sm sm:text-lg text-white">with a passion for crafting intuitive and visually appealing
+                <p class=" text-sm sm:text-lg text-white hero-texts">with a passion for crafting intuitive and visually
+                    appealing
                     websites.From
                     responsive design to
                     smooth user interactions, I focus on every detail.Let's collaborate to bring your vision to
                     life.Explore my portfolio and see how I can help you achieve your goals.</p>
                 <!-- btns  -->
-                <div class=" mt-7 flex gap-4">
+                <div class=" mt-7 flex gap-4 hero-texts">
                     <button class="btn bg-primary-color text-white">Download CV</button>
 
                     <button class="btn bg-transparent border-primary-color text-primary-color">Contact Me</button>
@@ -108,7 +110,7 @@
             <div class=" relative ">
                 <div class=" h-64 w-64 md:w-80 md:h-80 rounded-full light-effict absolute -left-7 top-40 -z-10 ">
                 </div>
-                <img class=" w-4/5 mx-auto" src="./assets/image/Mask grouphero.png" alt="Mehefuj Ali">
+                <img class=" w-4/5 mx-auto" id="mehefuj-hero" src="./assets/image/Mask grouphero.png" alt="Mehefuj Ali">
             </div>
         </section>
     </header>
@@ -328,6 +330,17 @@
             </nav>
         </footer>
     </footer>
+
+
+    <!-- ANIMATION  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./animation.js"></script>
 </body>
 
 </html>
