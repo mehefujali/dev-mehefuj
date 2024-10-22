@@ -12,7 +12,7 @@ gsap.from(".hero-texts", {
 })
 gsap.from("#ab-ani-img", {
       opacity: 0,
-      x: -200,
+      y: 200,
       duration: 2,
       stagger: .4,
       scrollTrigger: {
@@ -24,7 +24,7 @@ gsap.from("#ab-ani-img", {
 })
 gsap.from("#ab-ani-txt", {
       opacity: 0,
-      x: 150,
+      y: 150,
       duration: 2,
 
       scrollTrigger: {
@@ -35,7 +35,7 @@ gsap.from("#ab-ani-txt", {
 })
 gsap.from(".skill-card", {
       opacity: 0,
-      x: 150,
+      y: 50,
       duration: 2,
       stagger: .4,
       scrollTrigger: {
@@ -46,3 +46,8 @@ gsap.from(".skill-card", {
 })
 
 
+mm.add("(min-width: 768px)", () => {
+      gsap.from("#mehefuj-hero", {
+            scale: 5
+      })
+})
