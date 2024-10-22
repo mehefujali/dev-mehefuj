@@ -37,7 +37,7 @@ gsap.from(".skill-card", {
       opacity: 0,
       y: 50,
       duration: 2,
-      stagger: .4,
+      stagger: 2,
       scrollTrigger: {
             trigger: ".skill-card",
             start: "top 60%"
