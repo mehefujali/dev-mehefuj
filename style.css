@@ -39,3 +39,7 @@
             border-color: rgb(0, 183, 255);
       }
 }
+
+body {
+      overflow-x: hidden;
+}
